@@ -1,5 +1,6 @@
-# ruby-cli-template
+Recipe Builder CLI:
 
-Use this repository as a template for your Ruby CLI (command line interface) project.
+A command line interface application that creates a recipe based on the user's choice of protein, carbohydrate, and vegetable! 
 
-- Ruby version: `3.2.1`
+Usage:
+Run Ruby recipe-builder.rb in the terminal 
