@@ -14,4 +14,5 @@ class TestRecipeBuilder < Minitest::Test
     @recipebuilder = RecipeBuilder.new("chicken","rice","beans")
     assert_equal("beans", @recipebuilder.vegetable)
   end
+
 end
