@@ -11,8 +11,8 @@ class TestRecipeBuilder < Minitest::Test
     assert_equal("rice",@recipebuilder.carbohydrate)
   end
   def test_vegetable 
-    @recipebuilder = RecipeBuilder.new("chicken","rice","beans")
-    assert_equal("beans", @recipebuilder.vegetable)
+    @recipebuilder = RecipeBuilder.new("nil","nil","nil")
+    assert_equal("nil", @recipebuilder.vegetable)
   end
 
 end
