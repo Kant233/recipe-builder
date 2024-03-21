@@ -5,4 +5,11 @@ class RecipeBuilder
     @carbohydrate = carbohydrate
     @vegetable = vegetable
   end
+  def recipe_check
+    if (!@protein.nil? && !@carb.nil? && !@vegetable.nil?)
+      puts "You have create a recipe! #{@protein} with #{@carb}, and #{@vegetable}."
+    else 
+      raise TypeError.new("You must enter a protein, carbohydrate, and vegetable!")
+    end
+  end
 end
