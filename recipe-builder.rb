@@ -9,9 +9,9 @@ class RecipeBuilder
   end
 end
 puts "Enter your protein:"
-protein = gets.chomp
+protein = gets.chomp.capitalize
 puts "Enter your carbohydrate:"
-carbohydrate = gets.chomp
+carbohydrate = gets.chomp.downcase
 puts "Enter you vegetable:"
-vegetable = gets.chomp
+vegetable = gets.chomp.downcase
 puts "Your recipe: #{protein} with #{carbohydrate} and #{vegetable}."
